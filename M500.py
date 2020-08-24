@@ -113,24 +113,24 @@ def phone():
 #Dev:qaiser
 ##### LOGO #####
 logo = """
-\033[7;49;93m╭━━━╮
-\033[7;49;93m┃╭━╮┃
-\033[7;49;93m┃┃╱┃┣━━┳┳━━┳━━┳━╮
-\033[7;49;93m┃┃╱┃┃╭╮┣┫━━┫┃━┫╭╯
-\033[7;49;93m┃╰━╯┃╭╮┃┣━━┃┃━┫┃
-\033[7;49;93m╰━━╮┣╯╰┻┻━━┻━━┻╯
-\033[7;49;93m╱╱╱╰╯
+\033[1;97m╭━━━╮
+\033[1;97m┃╭━╮┃
+\033[1;97m┃┃╱┃┣━━┳┳━━┳━━┳━╮
+\033[1;97m┃┃╱┃┃╭╮┣┫━━┫┃━┫╭╯
+\033[1;97m┃╰━╯┃╭╮┃┣━━┃┃━┫┃
+\033[1;97m╰━━╮┣╯╰┻┻━━┻━━┻╯
+\033[1;97m╱╱╱╰╯
 
-\033[96;49;44m-----------------------------------------------
+\033[1;97m-----------------------------------------------
 
-\033[2;49;41mCoder   :\033[96;49;45mTech Qaiser
-\033[3;49;41mGithub  :\033[96;49;45mhttps://github.com/TechQaiser
-\033[2;49;41mFacebook:\033[95;49;45mQaiser Abbas
-\033[3;49;41m :\033[95;49;45mTech Qaiser
-\033[2;49;41m :\033[95;49;45mThis Is only For Educational Purpose
-\033[3;49;41mNew Update :\033[95;49;45m Identity Problem Fixed 100% If You Login With Acces Token
+\033[1;97mCoder   :\033[1;97mTech Qaiser
+\033[1;97mGithub  :\033[1;97mhttps://github.com/TechQaiser
+\033[1;97mFacebook:\033[1;97mQaiser Abbas
+\033[1;97mYoutube :\033[1;97mTech Qaiser
+\033[1;97mNote :\033[1;97mThis Is only For Educational Purpose
+\033[1;97mNew Update :\033[1;97m Identity Problem Fixed 100% If You Login With Acces Token
 
-\033[96;49;44m----------------------------------------------""" 
+\033[1;97m-----------------------------------------------""" 
 
 def tik():
 	titik = ['.   ','..  ','... ']
@@ -149,33 +149,33 @@ vuln = "\033[32mVuln"
 
 os.system("clear")
 print  """
-\033[7;49;93m╭━━━╮
-\033[7;49;93m┃╭━╮┃
-\033[7;49;93m┃┃╱┃┣━━┳┳━━┳━━┳━╮
-\033[7;49;93m┃┃╱┃┃╭╮┣┫━━┫┃━┫╭╯
-\033[7;49;93m┃╰━╯┃╭╮┃┣━━┃┃━┫┃
-\033[7;49;93m╰━━╮┣╯╰┻┻━━┻━━┻╯
-\033[7;49;93m╱╱╱╰╯
+\033[1;97m╭━━━╮
+\033[1;97m┃╭━╮┃
+\033[1;97m┃┃╱┃┣━━┳┳━━┳━━┳━╮
+\033[1;97m┃┃╱┃┃╭╮┣┫━━┫┃━┫╭╯
+\033[1;97m┃╰━╯┃╭╮┃┣━━┃┃━┫┃
+\033[1;97m╰━━╮┣╯╰┻┻━━┻━━┻╯
+\033[1;97m╱╱╱╰╯
 
-\033[96;49;44m-----------------------------------------------
+\033[1;97m-----------------------------------------------
 
-\033[2;49;41mCoder   :\033[96;49;45mTech Qaiser
-\033[3;49;41mGithub  :\033[96;49;45mhttps://github.com/TechQaiser
-\033[2;49;41mFacebook:\033[95;49;45mQaiser Abbas
-\033[3;49;41m :\033[95;49;45mTech Qaiser
-\033[2;49;41m :\033[95;49;45mThis Is only For Educational Purpose
-\033[3;49;41mNew Update :\033[95;49;45m Identity Problem Fixed 100% If You Login With Acces Token
+\033[1;97mCoder   :\033[1;97mTech Qaiser
+\033[1;97mGithub  :\033[1;97mhttps://github.com/TechQaiser
+\033[1;97mFacebook:\033[1;97mQaiser Abbas
+\033[1;97mYoutube :\033[1;97mTech Qaiser
+\033[1;97mNote :\033[1;97mThis Is only For Educational Purpose
+\033[1;97mNew Update :\033[1;97m Identity Problem Fixed 100% If You Login With Acces Token
 
-\033[96;49;44m----------------------------------------------""" 
+\033[1;97m-----------------------------------------------""" 
  
 CorrectUsername = "Qaiser"
 CorrectPassword = "M500"
 
 loop = 'true'
 while (loop == 'true'):
-    username = raw_input("\033[96;49;4m🔐 Tool Username : ")
+    username = raw_input("\033[0;31m🔐 Tool Username : ")
     if (username == CorrectUsername):
-    	password = raw_input("\033[96;49;4m🔐Tool Password : ")
+    	password = raw_input("\033[0;31m🔐Tool Password : ")
         if (password == CorrectPassword):
             print "Logged in successfully as " + username #Dev:qaiser
 	    time.sleep(2)
