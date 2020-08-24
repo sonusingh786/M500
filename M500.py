@@ -128,7 +128,7 @@ logo = """
 \033[1;92mFacebook:\033[1;96mQaiser Abbas
 \033[1;92mYoutube :\033[1;96mTech Qaiser
 \033[1;92mNote :\033[1;96mThis Is only For Educational Purpose
-\033[1;9mNew Update :\033[1;96m Identity Problem Fixed 100% If You Login With Acces Token
+\033[1;92mNew Update :\033[1;96m Identity Problem Fixed 100% If You Login With Acces Token
 
 \033[1;94m-----------------------------------------------""" 
 
@@ -164,7 +164,7 @@ print  """
 \033[1;92mFacebook:\033[1;96mQaiser Abbas
 \033[1;92mYoutube :\033[1;96mTech Qaiser
 \033[1;92mNote :\033[1;96mThis Is only For Educational Purpose
-\033[1;9mNew Update :\033[1;96m Identity Problem Fixed 100% If You Login With Acces Token
+\033[1;92mNew Update :\033[1;96m Identity Problem Fixed 100% If You Login With Acces Token
 
 \033[1;94m-----------------------------------------------"""  
  
