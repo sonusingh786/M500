@@ -7,7 +7,7 @@ pkg install git
 pkg install python2
 pip2 install requests
 pip2 install mechanize
-git clone https://github.com/TechQaiser/M500.py
+git clone https://github.com/TechQaiser/M500
 ls
 cd M500
 ls
